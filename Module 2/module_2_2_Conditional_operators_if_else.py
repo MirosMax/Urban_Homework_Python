@@ -1,4 +1,4 @@
-first, second, third = int((input())), int((input())), int((input()))
+first, second, third = int(input()), int(input()), int(input())
 
 if first == second == third:
     print(3)
