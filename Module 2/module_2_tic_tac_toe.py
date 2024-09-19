@@ -37,7 +37,7 @@ def print_area():
     for cell in area:
         print(*cell)
 
-print('Приветствуем в игре Крестики Нолики!')
+print('Приветствуем в игре Крестики-Нолики!')
 print()
 
 print_area()
