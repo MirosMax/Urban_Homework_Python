@@ -6,12 +6,12 @@ def send_email(message, recipient, sender="university.help@gmail.com"):
             not recipient.endswith('.com')
             and not recipient.endswith('.ru')
             and not recipient.endswith('.net')
-    )
+        )
         or (
             not sender.endswith('.com')
             and not sender.endswith('.ru')
             and not sender.endswith('.net')
-    )
+        )
     ):
         print(f'Невозможно отправить письмо с адреса {sender} на адрес {recipient}')
     elif sender == recipient:
