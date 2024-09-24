@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be8d50ed-b27f-4638-bfb9-026a7fe091f5" name="Changes" comment="Initial">
-      <change afterPath="$PROJECT_DIR$/Module 3/module_3_4_params.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 3/module_3_5_recursia.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,24 +44,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.module_2_2_Conditional_operators_if_else.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_2_4_for.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_2_5_function.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_2_6_dop_zadanie_ancient_cipher.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_2_tic_tac_toe.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_3_1_namespace.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_3_2_mailing_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_3_3_unpacking_param.executor&quot;: &quot;Run&quot;,
-    &quot;Python.modulw_2_3_while.executor&quot;: &quot;Run&quot;,
-    &quot;Python.temp.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/YandexDisk/Programming/Urban_Homework_Python/Module 2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.module_2_2_Conditional_operators_if_else.executor": "Run",
+    "Python.module_2_4_for.executor": "Run",
+    "Python.module_2_5_function.executor": "Run",
+    "Python.module_2_6_dop_zadanie_ancient_cipher.executor": "Run",
+    "Python.module_2_tic_tac_toe.executor": "Run",
+    "Python.module_3_1_namespace.executor": "Run",
+    "Python.module_3_2_mailing_list.executor": "Run",
+    "Python.module_3_3_unpacking_param.executor": "Run",
+    "Python.module_3_4_params.executor": "Run",
+    "Python.module_3_5_recursia.executor": "Run",
+    "Python.modulw_2_3_while.executor": "Run",
+    "Python.temp.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "E:/YandexDisk/Programming/Urban_Homework_Python/Module 2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\YandexDisk\Programming\Urban_Homework_Python\Module 2" />
@@ -231,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726905726980</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Initial">
+      <option name="closed" value="true" />
+      <created>1727095094868</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1727095094868</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
