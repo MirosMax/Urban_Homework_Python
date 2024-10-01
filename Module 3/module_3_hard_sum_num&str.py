@@ -11,6 +11,7 @@ def calculate_structure_sum(data_structure):
         for key, item in data_structure.items():
             calculate_structure_sum(key)
             calculate_structure_sum(item)
+    return sum_digit
 
 
 data_structure = [
@@ -23,5 +24,4 @@ data_structure = [
 
 sum_digit = 0
 
-calculate_structure_sum(data_structure)
-print(sum_digit)
+print(calculate_structure_sum(data_structure))
