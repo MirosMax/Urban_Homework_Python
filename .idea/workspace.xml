@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be8d50ed-b27f-4638-bfb9-026a7fe091f5" name="Changes" comment="Рабочий вариант, учитывающий нули на конце">
-      <change afterPath="$PROJECT_DIR$/Module 3/module_3_hard_sum_num&amp;str.py" afterDir="false" />
+    <list default="true" id="be8d50ed-b27f-4638-bfb9-026a7fe091f5" name="Changes" comment="Initial">
+      <change afterPath="$PROJECT_DIR$/Module 3/3_calculator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.01_triangle.executor": "Run",
+    "Python.3_calculator.executor": "Run",
     "Python.module_2_2_Conditional_operators_if_else.executor": "Run",
     "Python.module_2_4_for.executor": "Run",
     "Python.module_2_5_function.executor": "Run",
@@ -259,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727196140529</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Initial">
+      <option name="closed" value="true" />
+      <created>1727782082405</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1727782082405</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,8 +289,8 @@
     <MESSAGE value="Not work" />
     <MESSAGE value="Works" />
     <MESSAGE value="Corrected the brackets" />
-    <MESSAGE value="Initial" />
     <MESSAGE value="Рабочий вариант, учитывающий нули на конце" />
-    <option name="LAST_COMMIT_MESSAGE" value="Рабочий вариант, учитывающий нули на конце" />
+    <MESSAGE value="Initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
   </component>
 </project>
