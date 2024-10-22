@@ -1,13 +1,14 @@
 class House:
     houses_history = []
 
-    def __new__(cls, *args, **kwargs):
-        cls.houses_history.append(args[0])
-        return object.__new__(cls)
+    # def __new__(cls, *args, **kwargs):
+    #     cls.houses_history.append(args[0])
+    #     return object.__new__(cls)
 
     def __init__(self, name, number_of_floors):
         self.name = name
         self.number_of_floors = number_of_floors
+        self.houses_history.append(name)
 
     def go_to(self, new_floor):
         if new_floor > self.number_of_floors or new_floor < 1:
