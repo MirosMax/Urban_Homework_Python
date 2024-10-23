@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be8d50ed-b27f-4638-bfb9-026a7fe091f5" name="Changes" comment="Вариант без __new__">
-      <change afterPath="$PROJECT_DIR$/Module_5_Class_and_objects/module_5_hard_YouTube.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_5_Class_and_objects/module_5_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module_5_Class_and_objects/module_5_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_5_Class_and_objects/module_5_hard_YouTube.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module_5_Class_and_objects/module_5_hard_YouTube.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +71,7 @@
     &quot;Python.module_5_3.executor&quot;: &quot;Run&quot;,
     &quot;Python.module_5_4.executor&quot;: &quot;Run&quot;,
     &quot;Python.module_5_hard.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_5_hard_YouTube.executor&quot;: &quot;Run&quot;,
     &quot;Python.modulw_2_3_while.executor&quot;: &quot;Run&quot;,
     &quot;Python.nim_engine.executor&quot;: &quot;Run&quot;,
     &quot;Python.temp.executor&quot;: &quot;Run&quot;,
@@ -417,7 +417,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729096895692</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Initial">
+      <option name="closed" value="true" />
+      <created>1729595795252</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1729595795252</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Вариант без __new__">
+      <option name="closed" value="true" />
+      <created>1729595831218</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1729595831218</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -441,7 +457,8 @@
     <MESSAGE value="Рабочий вариант, учитывающий нули на конце" />
     <MESSAGE value="Добавил return" />
     <MESSAGE value="Initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
+    <MESSAGE value="Вариант без __new__" />
+    <option name="LAST_COMMIT_MESSAGE" value="Вариант без __new__" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

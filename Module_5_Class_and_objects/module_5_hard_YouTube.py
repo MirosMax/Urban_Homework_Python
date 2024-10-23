@@ -76,43 +76,49 @@ class Video:
 
 
 class UrTube:
-    current_user = None
-
     def __init__(self):
-        self.users = {}
-        self.videos = {}
+        self.users = []
+        self.videos = []
+        self.current_user = None
 
-    def log_in(self, nickname, password):
-        if nickname in self.users.keys() and hash(password) == self.users[nickname][0]:
-            self.current_user = nickname
-            print(f'Успешная авторизация! Привет, {nickname}.')
+    def log_in(self, login, psw):
+        for user in self.users:
+            if user.nickname == login and hash(psw) == user.password:
+                self.current_user = user
+                print(f'Успешная авторизация! Привет, {login}.')
+                break
         else:
-            print(f'Пользователь {nickname} не найден или неверный пароль')
+            print(f'Пользователь {login} не найден или неверный пароль')
 
-    def register(self, nickname, password, age):
-        if nickname in self.users.keys():
-            print(f'Пользователь {nickname} уже существует. Авторизуйтесь.')
-        else:
-            User(nickname, password, age)
-            self.users[nickname] = [hash(password), age]
-            self.current_user = nickname
-            print(f'Пользователь {nickname} зарегистрирован и авторизован!')
+    def register(self, new_nickname, new_password, new_age):
+        for user in self.users:  # проверяем есть ли такие пользователи
+            if user.nickname == new_nickname:
+                print(f'Пользователь {new_nickname} уже существует. Авторизуйтесь.')
+                break
+        else:  # если break не сработал, то регистрируем нового пользователя
+            new_user = User(new_nickname, new_password, new_age)
+            self.users.append(new_user)
+            self.current_user = new_user
+            print(f'Пользователь {new_nickname} зарегистрирован и авторизован!')
 
     def log_out(self):
         self.current_user = None
+        print('Вы вышли из системы')
 
     def add(self, *args: Video):
         for el in args:
-            if el.title in self.videos.keys():
-                print('Такое видео уже есть в базе данных')
-            else:
-                self.videos[el.title] = [el.duration, el.time_now, el.adult_mode]
+            for video in self.videos:
+                if el.title == video.title:
+                    print('Такое видео уже есть в базе данных')
+                    break
+            self.videos.append(el)
+            print(f'Видео "{el.title}" добавлено в каталог!')
 
     def get_videos(self, search_query):
         search_result = []
-        for key in self.videos.keys():
-            if search_query.lower() in key.lower():
-                search_result.append(key)
+        for video in self.videos:
+            if search_query.lower() in video.title.lower():
+                search_result.append(video.title)
         if len(search_result) == 0:
             print(f'Ничего не найдено по запросу "{search_query}"')
         else:
@@ -126,19 +132,26 @@ class UrTube:
         if self.current_user is None:
             print('Войдите в аккаунт, чтобы смотреть видео')
         else:
-            for key, value in self.videos.items():
-                if name_video == key:
-                    if not value[2] or (self.users[self.current_user][1] >= 18 and value[2]):
-                        for i in range(value[1], value[0] + 1):
+            for video in self.videos:
+                if name_video == video.title:
+                    if not video.adult_mode or (self.current_user.age >= 18 and video.adult_mode):
+                        for i in range(video.time_now, video.duration + 1):
                             print(i, end=' ')
                             time.sleep(0.2)
-                            self.videos[name_video][1] = 0  # сброс времени просмотра на 0
+                            video.time_now = 0  # сброс времени просмотра на 0
                         print('Конец видео')
                     else:
-                        print(f'{self.current_user}, Вам нет 18 лет, пожалуйста покиньте страницу')
+                        print(f'{self.current_user.nickname}, Вам нет 18 лет, пожалуйста покиньте страницу')
                     break
-            else:
-                print(f'Видео "{name_video}" не существует')
+            print(f'Видео "{name_video}" не существует')
+
+    def name_current_user(self):
+        # возвращает читабельное имя текущего пользователя
+        if self.current_user is None:
+            name = None
+        else:
+            name = self.current_user.nickname
+        return name
 
 
 ur = UrTube()
@@ -168,21 +181,21 @@ print(f'Все пользователи: {ur.users}')
 # авторизация
 print('\nАвторизация:')
 ur.log_in('user', '123546')
-print(f'Текущий пользователь: {ur.current_user}')
+print(f'Текущий пользователь: {ur.name_current_user()}')
 ur.log_in('queen', '111111')
-print(f'Текущий пользователь: {ur.current_user}')
+print(f'Текущий пользователь: {ur.name_current_user()}')
 ur.log_in('queen', '777777')
-print(f'Текущий пользователь: {ur.current_user}')
+print(f'Текущий пользователь: {ur.name_current_user()}')
 
 # выход из личного кабинета
 print('\nВыход из личного кабинета:')
 ur.log_out()
-print(f'Текущий пользователь: {ur.current_user}')
+print(f'Текущий пользователь: {ur.name_current_user()}')
 
 # повторная авторизация
 print('\nПовторная авторизация:')
 ur.log_in('queen', '777777')
-print(f'Текущий пользователь: {ur.current_user}')
+print(f'Текущий пользователь: {ur.name_current_user()}')
 
 # поиск видео
 print('\nПоиск видео:')
@@ -191,7 +204,10 @@ ur.get_videos('Програм')
 
 # просмотр видео
 print('\nПросмотр видео:')
-print(f'Текущий пользователь: {ur.current_user}')
+print(f'Текущий пользователь: {ur.name_current_user()}')
+ur.watch_video('Для чего девушкам парень программист?')
+ur.log_out()
+print(f'Текущий пользователь: {ur.name_current_user()}')
 ur.watch_video('Для чего девушкам парень программист?')
 
 # Проверка на вход пользователя и возрастное ограничение
@@ -204,7 +220,7 @@ ur.watch_video('Для чего девушкам парень программи
 # Проверка входа в другой аккаунт
 print('\nПроверка входа в другой аккаунт:')
 ur.register('vasya_pupkin', 'F8098FM8fjm9jmi', 55)
-print(f'Текущий пользователь: {ur.current_user}')
+print(f'Текущий пользователь: {ur.name_current_user()}')
 
 # Попытка воспроизведения несуществующего видео
 print('\nПопытка воспроизведения несуществующего видео:')
