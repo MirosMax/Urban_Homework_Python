@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be8d50ed-b27f-4638-bfb9-026a7fe091f5" name="Changes" comment="Initial">
-      <change afterPath="$PROJECT_DIR$/Module_7_file_work/module_7_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_7_file_work/file_explorer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,10 +49,14 @@
     "Python.01_triangle.executor": "Run",
     "Python.02_fractal.executor": "Run",
     "Python.03_arbitrary_params.executor": "Run",
+    "Python.03_file_seek.executor": "Run",
     "Python.04_practice.executor": "Run",
     "Python.04_recursion.executor": "Run",
     "Python.05_builtin.executor": "Run",
+    "Python.06_format.executor": "Run",
+    "Python.07_practice.executor": "Run",
     "Python.3_calculator.executor": "Run",
+    "Python.file_explorer.executor": "Run",
     "Python.module_2_2_Conditional_operators_if_else.executor": "Run",
     "Python.module_2_4_for.executor": "Run",
     "Python.module_2_5_function.executor": "Run",
@@ -505,7 +509,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730545306812</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Initial">
+      <option name="closed" value="true" />
+      <created>1730828163352</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1730828163352</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
