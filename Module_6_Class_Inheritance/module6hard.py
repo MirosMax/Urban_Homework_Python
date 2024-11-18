@@ -78,15 +78,14 @@ class Circle(Figure):
 
     def __init__(self, color, *sides):
         super().__init__(color, *sides, )
-        self.__radius = self.get_radius()
+        self.__radius = len(self) / (2 * pi)
 
     def get_square(self):
         s = self.__len__() ** 2 / (4 * pi)
         return s
 
     def get_radius(self):
-        r = len(self) / (2 * pi)
-        return r
+        return self.__radius
 
 
 class Triangle(Figure):
