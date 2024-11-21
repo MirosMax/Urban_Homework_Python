@@ -18,10 +18,10 @@ class Iterator:
     def __next__(self):
         if self.step > 0:
             if not self.start <= self.pointer <= self.stop:
-                raise StopIteration()
+                raise StopIteration
         elif self.step < 0:
             if not self.stop <= self.pointer <= self.start:
-                raise StopIteration()
+                raise StopIteration
         self.pointer += self.step
         # чтобы вывести первый элемент, обратно уменьшаем pointer на step и возвращаем
         return self.pointer - self.step
