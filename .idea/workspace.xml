@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be8d50ed-b27f-4638-bfb9-026a7fe091f5" name="Changes" comment="Initial">
-      <change afterPath="$PROJECT_DIR$/Module_10_Threads/module_10_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_10_Threads/module_10_5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +62,8 @@
     &quot;Python.module_10_1.executor&quot;: &quot;Run&quot;,
     &quot;Python.module_10_2.executor&quot;: &quot;Run&quot;,
     &quot;Python.module_10_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_10_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_10_5.executor&quot;: &quot;Run&quot;,
     &quot;Python.module_2_2_Conditional_operators_if_else.executor&quot;: &quot;Run&quot;,
     &quot;Python.module_2_4_for.executor&quot;: &quot;Run&quot;,
     &quot;Python.module_2_5_function.executor&quot;: &quot;Run&quot;,
@@ -186,22 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726067016026</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Not work">
-      <option name="closed" value="true" />
-      <created>1726848453284</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1726848453284</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Not work">
-      <option name="closed" value="true" />
-      <created>1726848702350</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1726848702350</updated>
     </task>
     <task id="LOCAL-00016" summary="Works">
       <option name="closed" value="true" />
@@ -579,7 +565,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732559283423</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Initial">
+      <option name="closed" value="true" />
+      <created>1732888455708</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1732888455709</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Initial">
+      <option name="closed" value="true" />
+      <created>1733324064377</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1733324064377</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
