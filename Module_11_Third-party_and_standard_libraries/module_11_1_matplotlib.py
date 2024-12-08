@@ -18,6 +18,8 @@ explode = (0.1, 0, 0, 0, 0.15, 0)
 axes[0][0].plot(x_1, y_1)  # рисуем параболу на первом поле
 axes[0][1].plot(x_1, y_2, color='green', linestyle='dotted')  # зеленый график точками на 2 поле
 axes[1][0].plot(x_1, y_3, color='blue', linestyle='-')  # синий график прерывистой линией на 3 поле
-axes[1][1].pie(data, labels=labels, explode=explode, shadow=True, autopct='%1.1f%%')  # круговая диаграмма на 4 поле
+
+# круговая диаграмма на 4 поле:
+axes[1][1].pie(data, labels=labels, explode=explode, shadow=True, autopct='%1.1f%%')
 
 plt.show()
