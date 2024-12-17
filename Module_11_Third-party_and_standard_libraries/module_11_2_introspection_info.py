@@ -8,8 +8,10 @@ def introspection_info(obj):
     value_methods = []
     value_attr = []
     for attr_name in dir(obj):
-        if 'method' in str(type(getattr(obj, attr_name))):
+        if callable(getattr(obj, attr_name)):
             value_methods.append(attr_name)
+        # if 'method' in str(type(getattr(obj, attr_name))):
+        #     value_methods.append(attr_name)
         else:
             value_attr.append(attr_name)
     result['methods'] = value_methods
