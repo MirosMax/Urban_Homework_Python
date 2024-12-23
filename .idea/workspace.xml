@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be8d50ed-b27f-4638-bfb9-026a7fe091f5" name="Changes" comment="Initial">
+    <list default="true" id="be8d50ed-b27f-4638-bfb9-026a7fe091f5" name="Changes" comment="Второй вариант решения с методами">
+      <change afterPath="$PROJECT_DIR$/Module_12_Supporting_the_development_cycle/task_12_1_Runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_12_Supporting_the_development_cycle/task_12_1_test_Runner.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_11_Third-party_and_standard_libraries/module_11_2_introspection_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module_11_Third-party_and_standard_libraries/module_11_2_introspection_info.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,78 +45,85 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.01_triangle.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_fractal.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_arbitrary_params.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_file_seek.executor&quot;: &quot;Run&quot;,
-    &quot;Python.04_practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.04_recursion.executor&quot;: &quot;Run&quot;,
-    &quot;Python.05_builtin.executor&quot;: &quot;Run&quot;,
-    &quot;Python.05_lib_usage.executor&quot;: &quot;Run&quot;,
-    &quot;Python.06_format.executor&quot;: &quot;Run&quot;,
-    &quot;Python.07_practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3_calculator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.file_explorer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mod_9_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module6hard.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_0_basic_data_structures.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_10_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_10_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_10_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_10_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_10_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_10_practice_1_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_11_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_11_1_matplotlib.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_11_2_introspection_info.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_2_2_Conditional_operators_if_else.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_2_4_for.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_2_5_function.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_2_6_dop_zadanie_ancient_cipher.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_2_tic_tac_toe.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_3_1_namespace.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_3_2_mailing_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_3_3_unpacking_param.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_3_4_params.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_3_5_recursia.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_3_hard_sum_num&amp;str.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_4_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_4_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_5_1_atribut_metod.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_5_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_5_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_5_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_5_hard.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_5_hard_YouTube.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_6_1_edible_inedible.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_6_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_6_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_7_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_7_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_7_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_7_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_7_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_8_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_8_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_8_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_9_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_9_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_9_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_9_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_9_6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_9_7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.modulw_2_3_while.executor&quot;: &quot;Run&quot;,
-    &quot;Python.nim_engine.executor&quot;: &quot;Run&quot;,
-    &quot;Python.temp.executor&quot;: &quot;Run&quot;,
-    &quot;Python.temp2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/YandexDisk/Programming/Urban_Homework_Python/Module_5_Class_and_objects&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for tests_12_1.RunnerTest.executor": "Run",
+    "Python tests.Python tests for tests_12_1.RunnerTest.test_walk.executor": "Run",
+    "Python tests.Python tests in tests_12_1.py.executor": "Run",
+    "Python.01_triangle.executor": "Run",
+    "Python.02_fractal.executor": "Run",
+    "Python.03_arbitrary_params.executor": "Run",
+    "Python.03_file_seek.executor": "Run",
+    "Python.04_practice.executor": "Run",
+    "Python.04_recursion.executor": "Run",
+    "Python.05_builtin.executor": "Run",
+    "Python.05_lib_usage.executor": "Run",
+    "Python.06_format.executor": "Run",
+    "Python.07_practice.executor": "Run",
+    "Python.3_calculator.executor": "Run",
+    "Python.Calculator.executor": "Run",
+    "Python.calc.executor": "Run",
+    "Python.file_explorer.executor": "Run",
+    "Python.mod_9_5.executor": "Run",
+    "Python.module6hard.executor": "Run",
+    "Python.module_0_basic_data_structures.executor": "Run",
+    "Python.module_10_1.executor": "Run",
+    "Python.module_10_2.executor": "Run",
+    "Python.module_10_3.executor": "Run",
+    "Python.module_10_4.executor": "Run",
+    "Python.module_10_5.executor": "Run",
+    "Python.module_10_practice_1_1.executor": "Run",
+    "Python.module_11_1.executor": "Run",
+    "Python.module_11_1_matplotlib.executor": "Run",
+    "Python.module_11_2_introspection_info.executor": "Run",
+    "Python.module_2_2_Conditional_operators_if_else.executor": "Run",
+    "Python.module_2_4_for.executor": "Run",
+    "Python.module_2_5_function.executor": "Run",
+    "Python.module_2_6_dop_zadanie_ancient_cipher.executor": "Run",
+    "Python.module_2_tic_tac_toe.executor": "Run",
+    "Python.module_3_1_namespace.executor": "Run",
+    "Python.module_3_2_mailing_list.executor": "Run",
+    "Python.module_3_3_unpacking_param.executor": "Run",
+    "Python.module_3_4_params.executor": "Run",
+    "Python.module_3_5_recursia.executor": "Run",
+    "Python.module_3_hard_sum_num&str.executor": "Run",
+    "Python.module_4_1.executor": "Run",
+    "Python.module_4_2.executor": "Run",
+    "Python.module_5_1_atribut_metod.executor": "Run",
+    "Python.module_5_2.executor": "Run",
+    "Python.module_5_3.executor": "Run",
+    "Python.module_5_4.executor": "Run",
+    "Python.module_5_hard.executor": "Run",
+    "Python.module_5_hard_YouTube.executor": "Run",
+    "Python.module_6_1_edible_inedible.executor": "Run",
+    "Python.module_6_2.executor": "Run",
+    "Python.module_6_3.executor": "Run",
+    "Python.module_7_1.executor": "Run",
+    "Python.module_7_2.executor": "Run",
+    "Python.module_7_3.executor": "Run",
+    "Python.module_7_4.executor": "Run",
+    "Python.module_7_5.executor": "Run",
+    "Python.module_8_1.executor": "Run",
+    "Python.module_8_2.executor": "Run",
+    "Python.module_8_3.executor": "Run",
+    "Python.module_9_1.executor": "Run",
+    "Python.module_9_2.executor": "Run",
+    "Python.module_9_3.executor": "Run",
+    "Python.module_9_4.executor": "Run",
+    "Python.module_9_6.executor": "Run",
+    "Python.module_9_7.executor": "Run",
+    "Python.modulw_2_3_while.executor": "Run",
+    "Python.nim_engine.executor": "Run",
+    "Python.temp.executor": "Run",
+    "Python.temp2.executor": "Run",
+    "Python.test_calc.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "E:/YandexDisk/Programming/Urban_Homework_Python/Module_5_Class_and_objects",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\YandexDisk\Programming\Urban_Homework_Python\Module_5_Class_and_objects" />
@@ -172,8 +180,40 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for Module_12_Supporting_the_development_cycle.task_12_1_test_Runner.RunnerTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Urban_Homework_Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Module_12_Supporting_the_development_cycle" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Module_12_Supporting_the_development_cycle.task_12_1_test_Runner.RunnerTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for Module_12_Supporting_the_development_cycle.task_12_1_test_Runner.RunnerTest.test_walk" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Urban_Homework_Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Module_12_Supporting_the_development_cycle" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Module_12_Supporting_the_development_cycle.task_12_1_test_Runner.RunnerTest.test_walk&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for Module_12_Supporting_the_development_cycle.task_12_1_test_Runner.RunnerTest.test_walk" />
+        <item itemvalue="Python tests.Python tests for Module_12_Supporting_the_development_cycle.task_12_1_test_Runner.RunnerTest" />
         <item itemvalue="Python.module_5_3" />
         <item itemvalue="Python.temp" />
       </list>
@@ -182,7 +222,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
+        <option value="bundled-python-sdk-495700d161d3-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.220" />
       </set>
     </attachedChunks>
   </component>
@@ -194,14 +234,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726067016026</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Initial">
-      <option name="closed" value="true" />
-      <created>1727882534949</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1727882534949</updated>
     </task>
     <task id="LOCAL-00026" summary="Initial">
       <option name="closed" value="true" />
@@ -587,7 +619,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734343990391</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Второй вариант решения с методами">
+      <option name="closed" value="true" />
+      <created>1734430828641</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1734430828641</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -614,17 +654,7 @@
     <MESSAGE value="Замечания преподавателя 22.10.24" />
     <MESSAGE value="Неправильный расчет радиуса" />
     <MESSAGE value="Initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Module_3_More_about_functions/Calculator.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Второй вариант решения с методами" />
+    <option name="LAST_COMMIT_MESSAGE" value="Второй вариант решения с методами" />
   </component>
 </project>
