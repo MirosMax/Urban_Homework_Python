@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be8d50ed-b27f-4638-bfb9-026a7fe091f5" name="Changes" comment="Initial" />
+    <list default="true" id="be8d50ed-b27f-4638-bfb9-026a7fe091f5" name="Changes" comment="Initial">
+      <change afterPath="$PROJECT_DIR$/Module_12_Supporting_the_development_cycle/task_12_2_Runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_12_Supporting_the_development_cycle/task_12_2_test_Runner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,9 +47,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for task_12_2_test_Runner.TournamentTest.executor": "Run",
+    "Python tests.Python tests for task_12_2_test_Runner.TournamentTest.test_tournament_1.executor": "Run",
     "Python tests.Python tests for tests_12_1.RunnerTest.executor": "Run",
     "Python tests.Python tests for tests_12_1.RunnerTest.test_walk.executor": "Run",
     "Python tests.Python tests in task_12_1_test_Runner.py.executor": "Run",
+    "Python tests.Python tests in task_12_2_test_Runner.py.executor": "Run",
     "Python tests.Python tests in tests_12_1.py.executor": "Run",
     "Python.01_triangle.executor": "Run",
     "Python.02_fractal.executor": "Run",
@@ -155,28 +162,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="temp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Urban_Homework_Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/temp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for Module_12_Supporting_the_development_cycle.task_12_1_test_Runner.RunnerTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Urban_Homework_Python" />
       <option name="ENV_FILES" value="" />
@@ -207,12 +192,43 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for task_12_2_test_Runner.TournamentTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Urban_Homework_Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Module_12_Supporting_the_development_cycle" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;task_12_2_test_Runner.TournamentTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for task_12_2_test_Runner.TournamentTest.test_tournament_1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Urban_Homework_Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Module_12_Supporting_the_development_cycle" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;task_12_2_test_Runner.TournamentTest.test_tournament_1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for task_12_2_test_Runner.TournamentTest.test_tournament_1" />
+        <item itemvalue="Python tests.Python tests for task_12_2_test_Runner.TournamentTest" />
         <item itemvalue="Python tests.Python tests for Module_12_Supporting_the_development_cycle.task_12_1_test_Runner.RunnerTest.test_walk" />
         <item itemvalue="Python tests.Python tests for Module_12_Supporting_the_development_cycle.task_12_1_test_Runner.RunnerTest" />
         <item itemvalue="Python.module_5_3" />
-        <item itemvalue="Python.temp" />
       </list>
     </recent_temporary>
   </component>
@@ -231,14 +247,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726067016026</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Initial">
-      <option name="closed" value="true" />
-      <created>1728327040524</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1728327040524</updated>
     </task>
     <task id="LOCAL-00028" summary="Initial">
       <option name="closed" value="true" />
@@ -624,7 +632,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734968532895</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Initial">
+      <option name="closed" value="true" />
+      <created>1734968893609</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1734968893609</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
