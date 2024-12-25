@@ -3,6 +3,8 @@ import task_12_2_Runner as Runner
 
 
 class TournamentTest(unittest.TestCase):
+    is_frozen = True
+
     @classmethod
     def setUpClass(cls):
         cls.all_results = {}
@@ -17,6 +19,7 @@ class TournamentTest(unittest.TestCase):
         for tournament in cls.all_results:
             print(cls.all_results[tournament])
 
+    @unittest.skipIf(is_frozen, 'Тесты в этом кейсе заморожены')
     def test_tournament_1(self):
         self.tournament_1 = Runner.Tournament(90, self.runner_1, self.runner_3)
         name_tournament = 'tournament_1'
@@ -27,6 +30,7 @@ class TournamentTest(unittest.TestCase):
         last_place_runner = result_tournament[max(result_tournament)]
         self.assertTrue(last_place_runner == self.runner_3.name)
 
+    @unittest.skipIf(is_frozen, 'Тесты в этом кейсе заморожены')
     def test_tournament_2(self):
         self.tournament_2 = Runner.Tournament(90, self.runner_2, self.runner_3)
         name_tournament = 'tournament_2'
@@ -37,6 +41,7 @@ class TournamentTest(unittest.TestCase):
         last_place_runner = result_tournament[max(result_tournament)]
         self.assertTrue(last_place_runner == self.runner_3.name)
 
+    @unittest.skipIf(is_frozen, 'Тесты в этом кейсе заморожены')
     def test_tournament_3(self):
         self.tournament_3 = Runner.Tournament(90, self.runner_1, self.runner_2, self.runner_3)
         name_tournament = 'tournament_3'

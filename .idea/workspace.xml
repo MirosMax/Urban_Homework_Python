@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be8d50ed-b27f-4638-bfb9-026a7fe091f5" name="Changes" comment="Initial">
-      <change afterPath="$PROJECT_DIR$/Module_12_Supporting_the_development_cycle/task_12_2_Runner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_12_Supporting_the_development_cycle/task_12_2_test_Runner.py" afterDir="false" />
+    <list default="true" id="be8d50ed-b27f-4638-bfb9-026a7fe091f5" name="Changes" comment="Исправлены названия переменных внутри методов (без self)">
+      <change afterPath="$PROJECT_DIR$/Module_12_Supporting_the_development_cycle/task_12_3_suite.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_12_Supporting_the_development_cycle/task_12_1_test_Runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module_12_Supporting_the_development_cycle/task_12_1_test_Runner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_12_Supporting_the_development_cycle/task_12_2_test_Runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module_12_Supporting_the_development_cycle/task_12_2_test_Runner.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +119,7 @@
     "Python.module_9_7.executor": "Run",
     "Python.modulw_2_3_while.executor": "Run",
     "Python.nim_engine.executor": "Run",
+    "Python.task_12_3_suite.executor": "Run",
     "Python.temp.executor": "Run",
     "Python.temp2.executor": "Run",
     "Python.test_calc.executor": "Run",
@@ -247,22 +249,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726067016026</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Initial">
-      <option name="closed" value="true" />
-      <created>1728904780531</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1728904780531</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Initial">
-      <option name="closed" value="true" />
-      <created>1728905856310</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1728905856310</updated>
     </task>
     <task id="LOCAL-00030" summary="Initial">
       <option name="closed" value="true" />
@@ -640,7 +626,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734968893609</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Initial">
+      <option name="closed" value="true" />
+      <created>1734989713301</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1734989713302</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Исправлены названия переменных внутри методов (без self)">
+      <option name="closed" value="true" />
+      <created>1734990201509</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1734990201509</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -668,6 +670,7 @@
     <MESSAGE value="Неправильный расчет радиуса" />
     <MESSAGE value="Второй вариант решения с методами" />
     <MESSAGE value="Initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
+    <MESSAGE value="Исправлены названия переменных внутри методов (без self)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправлены названия переменных внутри методов (без self)" />
   </component>
 </project>
