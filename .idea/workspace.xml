@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be8d50ed-b27f-4638-bfb9-026a7fe091f5" name="Changes" comment="Initial">
-      <change afterPath="$PROJECT_DIR$/Module_12_Supporting_the_development_cycle/task_12_4_Runner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_12_Supporting_the_development_cycle/task_12_4_test-suite.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_12_Supporting_the_development_cycle/task_12_4_test_logging_Runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_13_asinc_and_aiogram/module_13_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +55,7 @@
     "Python tests.Python tests in task_12_4_Runner.py.executor": "Run",
     "Python tests.Python tests in task_12_4_test_Runner.py.executor": "Run",
     "Python tests.Python tests in task_12_4_test_logging_Runner.py.executor": "Run",
+    "Python tests.Python tests in test_child.py.executor": "Run",
     "Python tests.Python tests in tests_12_1.py.executor": "Run",
     "Python.01_triangle.executor": "Run",
     "Python.02_fractal.executor": "Run",
@@ -71,6 +70,7 @@
     "Python.3_calculator.executor": "Run",
     "Python.Calculator.executor": "Run",
     "Python.calc.executor": "Run",
+    "Python.family.executor": "Run",
     "Python.file_explorer.executor": "Run",
     "Python.mod_9_5.executor": "Run",
     "Python.module6hard.executor": "Run",
@@ -84,6 +84,7 @@
     "Python.module_11_1.executor": "Run",
     "Python.module_11_1_matplotlib.executor": "Run",
     "Python.module_11_2_introspection_info.executor": "Run",
+    "Python.module_13_1.executor": "Run",
     "Python.module_2_2_Conditional_operators_if_else.executor": "Run",
     "Python.module_2_4_for.executor": "Run",
     "Python.module_2_5_function.executor": "Run",
@@ -249,14 +250,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726067016026</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Initial">
-      <option name="closed" value="true" />
-      <created>1729077669038</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1729077669039</updated>
     </task>
     <task id="LOCAL-00032" summary="Initial">
       <option name="closed" value="true" />
@@ -642,7 +635,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735142762002</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Initial">
+      <option name="closed" value="true" />
+      <created>1737562130320</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1737562130320</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -672,5 +673,16 @@
     <MESSAGE value="Исправлены названия переменных внутри методов (без self)" />
     <MESSAGE value="Initial" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Module_12_Supporting_the_development_cycle/dop/python_snippets/tests/test_wife.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
